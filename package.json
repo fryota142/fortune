@@ -1,0 +1,23 @@
+{
+  "name": "fortune",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fryota142/fortune.git"
+  },
+  "devDependencies": {
+    "lite-server": "2.5.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fryota142/fortune/issues"
+  },
+  "homepage": "https://github.com/fryota142/fortune#readme"
+}
