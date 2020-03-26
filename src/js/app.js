@@ -50,7 +50,7 @@ App = {
       App.contracts.Fortune.setProvider(App.web3Provider);
 
       // Use our contract to retrieve and mark the adopted pets
-      return App.markFortune();
+      // return App.markFortune();
     });
 
     return App.bindEvents();
@@ -72,8 +72,8 @@ App = {
       return fortuneInstance.getRandom();
     }).then(function (address)
     {
-      var hex = address.slice(2, -1);
-      let num = parseInt(hex, 16) % 4;
+      var hex = address.slice(-2, -1);
+      var num = parseInt(hex, 16) % 4;
       var result = '';
 
       switch (num)
